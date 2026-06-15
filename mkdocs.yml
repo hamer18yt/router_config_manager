@@ -1,0 +1,25 @@
+ 
+site_name: Управление конфигурацией сетевых устройств
+site_description: Документация проекта для анализа конфигураций маршрутизаторов
+site_author: Student
+
+theme:
+  name: readthedocs
+
+nav:
+  - Главная: index.md
+  - Постановка задачи: tasks.md
+  - Генерация данных: data_generator.md
+  - Класс ConfigManager: config_manager.md
+  - Использование: main.md
+  - Тестирование: testing.md
+  - Формат отчетов: reports.md
+  - Результаты: results.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - tables

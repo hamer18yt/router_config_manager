@@ -1,0 +1,38 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+
+# Файлы Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Логи
+*.log
+app.log
+
+# Данные (большие файлы)
+router_configs.json
+analysis_report.json
+manager_state.json
+
+# Документация
+site/
+docs/site/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
